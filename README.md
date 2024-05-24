@@ -50,7 +50,7 @@ The dataset contains customer-level information for a span of four consecutive m
 
 The business objective is to predict the churn in the last (i.e. the ninth) month using the data (features) from the first three months. To do this task well, understanding the typical customer behaviour during churn will be helpful.
 
-####### Understanding Customer Behaviour During Churn
+###### Understanding Customer Behaviour During Churn
 
 Customers usually do not decide to switch to another competitor instantly, but rather over a period of time (this is especially applicable to high-value customers). In churn prediction, we assume that there are three phases of customer lifecycle :
 
@@ -62,7 +62,7 @@ Customers usually do not decide to switch to another competitor instantly, but r
 
 In this case, since we are working over a four-month window, the first two months are the ‘good’ phase, the third month is the ‘action’ phase, while the fourth month is the ‘churn’ phase.
 
-######### Data Preparation
+###### Data Preparation
 
 We can take the following suggestive steps to build the model:
 
